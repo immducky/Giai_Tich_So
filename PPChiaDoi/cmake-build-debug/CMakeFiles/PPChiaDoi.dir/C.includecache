@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GiaiTichSo/PPChiaDoi/ChiaDoi.c
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+
