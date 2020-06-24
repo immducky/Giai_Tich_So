@@ -1,0 +1,3 @@
+E:/GiaiTichSo/Giai_Tich_So/PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir
+E:/GiaiTichSo/Giai_Tich_So/PPNewTon/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/GiaiTichSo/Giai_Tich_So/PPNewTon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
