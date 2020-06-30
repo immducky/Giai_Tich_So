@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GiaiTichSo/Giai_Tich_So/PPNewTon/main.c">
+		<Unit filename="E:/GiaiTichSo/Giai_Tich_So/PPNewTon/Newton.c">
 			<Option target="PPNewTon"/>
 		</Unit>
 		<Unit filename="E:/GiaiTichSo/Giai_Tich_So/PPNewTon/CMakeLists.txt">

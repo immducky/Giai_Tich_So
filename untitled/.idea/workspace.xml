@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="untitled" targetName="untitled" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d2c15fd-6a2f-40d2-b017-5c049beaf2e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/PPNewTon.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../PPNewTon/cmake-build-debug/PPNewTon.cbp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1e29QDPSskY56UWsbPM4fM1tagF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="untitled" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="untitled" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="untitled">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d2c15fd-6a2f-40d2-b017-5c049beaf2e3" name="Default Changelist" comment="" />
+      <created>1593508802568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593508802568</updated>
+      <workItem from="1593508803978" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

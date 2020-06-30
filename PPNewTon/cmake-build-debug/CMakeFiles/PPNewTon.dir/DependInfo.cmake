@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/GiaiTichSo/Giai_Tich_So/PPNewTon/main.c" "E:/GiaiTichSo/Giai_Tich_So/PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/main.c.obj"
+  "E:/GiaiTichSo/Giai_Tich_So/PPNewTon/Newton.c" "E:/GiaiTichSo/Giai_Tich_So/PPNewTon/cmake-build-debug/CMakeFiles/PPNewTon.dir/Newton.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

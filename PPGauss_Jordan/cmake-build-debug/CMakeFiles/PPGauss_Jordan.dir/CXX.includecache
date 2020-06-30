@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GiaiTichSo/Giai_Tich_So/PPGauss_Jordan/main.cpp
+stdio.h
+-
+conio.h
+-
+math.h
+-
+stdlib.h
+-
+dos.h
+-
+stdbool.h
+-
+string.h
+-
+

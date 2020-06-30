@@ -1,0 +1,3 @@
+E:/GiaiTichSo/Giai_Tich_So/PPGauss_Jordan/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/GiaiTichSo/Giai_Tich_So/PPGauss_Jordan/cmake-build-debug/CMakeFiles/PPGauss_Jordan.dir
+E:/GiaiTichSo/Giai_Tich_So/PPGauss_Jordan/cmake-build-debug/CMakeFiles/edit_cache.dir

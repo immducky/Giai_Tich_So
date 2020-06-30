@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PPNewTon.dir/main.c.obj"
+  "CMakeFiles/PPNewTon.dir/Newton.c.obj"
   "PPNewTon.exe"
   "PPNewTon.exe.manifest"
   "PPNewTon.pdb"

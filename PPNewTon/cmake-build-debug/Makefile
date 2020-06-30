@@ -122,32 +122,32 @@ PPNewTon/fast:
 	$(MAKE) -f CMakeFiles\PPNewTon.dir\build.make CMakeFiles/PPNewTon.dir/build
 .PHONY : PPNewTon/fast
 
-main.obj: main.c.obj
+Newton.obj: Newton.c.obj
 
-.PHONY : main.obj
+.PHONY : Newton.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\PPNewTon.dir\build.make CMakeFiles/PPNewTon.dir/main.c.obj
-.PHONY : main.c.obj
+Newton.c.obj:
+	$(MAKE) -f CMakeFiles\PPNewTon.dir\build.make CMakeFiles/PPNewTon.dir/Newton.c.obj
+.PHONY : Newton.c.obj
 
-main.i: main.c.i
+Newton.i: Newton.c.i
 
-.PHONY : main.i
+.PHONY : Newton.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\PPNewTon.dir\build.make CMakeFiles/PPNewTon.dir/main.c.i
-.PHONY : main.c.i
+Newton.c.i:
+	$(MAKE) -f CMakeFiles\PPNewTon.dir\build.make CMakeFiles/PPNewTon.dir/Newton.c.i
+.PHONY : Newton.c.i
 
-main.s: main.c.s
+Newton.s: Newton.c.s
 
-.PHONY : main.s
+.PHONY : Newton.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\PPNewTon.dir\build.make CMakeFiles/PPNewTon.dir/main.c.s
-.PHONY : main.c.s
+Newton.c.s:
+	$(MAKE) -f CMakeFiles\PPNewTon.dir\build.make CMakeFiles/PPNewTon.dir/Newton.c.s
+.PHONY : Newton.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... PPNewTon
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Newton.obj
+	@echo ... Newton.i
+	@echo ... Newton.s
 .PHONY : help
 
 

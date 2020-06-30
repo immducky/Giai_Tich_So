@@ -56,27 +56,27 @@ include CMakeFiles/PPNewTon.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PPNewTon.dir/flags.make
 
-CMakeFiles/PPNewTon.dir/main.c.obj: CMakeFiles/PPNewTon.dir/flags.make
-CMakeFiles/PPNewTon.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GiaiTichSo\Giai_Tich_So\PPNewTon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PPNewTon.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PPNewTon.dir\main.c.obj   -c E:\GiaiTichSo\Giai_Tich_So\PPNewTon\main.c
+CMakeFiles/PPNewTon.dir/Newton.c.obj: CMakeFiles/PPNewTon.dir/flags.make
+CMakeFiles/PPNewTon.dir/Newton.c.obj: ../Newton.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GiaiTichSo\Giai_Tich_So\PPNewTon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PPNewTon.dir/Newton.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PPNewTon.dir\Newton.c.obj   -c E:\GiaiTichSo\Giai_Tich_So\PPNewTon\Newton.c
 
-CMakeFiles/PPNewTon.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PPNewTon.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GiaiTichSo\Giai_Tich_So\PPNewTon\main.c > CMakeFiles\PPNewTon.dir\main.c.i
+CMakeFiles/PPNewTon.dir/Newton.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PPNewTon.dir/Newton.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GiaiTichSo\Giai_Tich_So\PPNewTon\Newton.c > CMakeFiles\PPNewTon.dir\Newton.c.i
 
-CMakeFiles/PPNewTon.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PPNewTon.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GiaiTichSo\Giai_Tich_So\PPNewTon\main.c -o CMakeFiles\PPNewTon.dir\main.c.s
+CMakeFiles/PPNewTon.dir/Newton.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PPNewTon.dir/Newton.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GiaiTichSo\Giai_Tich_So\PPNewTon\Newton.c -o CMakeFiles\PPNewTon.dir\Newton.c.s
 
 # Object files for target PPNewTon
 PPNewTon_OBJECTS = \
-"CMakeFiles/PPNewTon.dir/main.c.obj"
+"CMakeFiles/PPNewTon.dir/Newton.c.obj"
 
 # External object files for target PPNewTon
 PPNewTon_EXTERNAL_OBJECTS =
 
-PPNewTon.exe: CMakeFiles/PPNewTon.dir/main.c.obj
+PPNewTon.exe: CMakeFiles/PPNewTon.dir/Newton.c.obj
 PPNewTon.exe: CMakeFiles/PPNewTon.dir/build.make
 PPNewTon.exe: CMakeFiles/PPNewTon.dir/linklibs.rsp
 PPNewTon.exe: CMakeFiles/PPNewTon.dir/objects1.rsp

@@ -1,0 +1,2 @@
+E:\GiaiTichSo\Giai_Tich_So\PPGauss\Gauss\Gauss\obj\Debug\Gauss.csprojAssemblyReference.cache
+E:\GiaiTichSo\Giai_Tich_So\PPGauss\Gauss\Gauss\obj\Debug\Gauss.csproj.CoreCompileInputs.cache
