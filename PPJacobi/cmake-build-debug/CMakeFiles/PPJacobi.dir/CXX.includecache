@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GiaiTichSo/Giai_Tich_So/PPJacobi/main.cpp
+stdio.h
+-
+stdlib.h
+-
+conio.h
+-
+math.h
+-
+

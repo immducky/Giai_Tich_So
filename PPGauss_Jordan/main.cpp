@@ -1,13 +1,14 @@
 /// CREATE ON CODEBLOCKS 5/5/2020
-
+/// DO EM KHAI BAO INT I = 1 TRONG VONG FOR NEN KHI CHAY TREN CAC IDE CO THE KO CHAY DUOC
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>
 #include <stdlib.h>
+#include <dos.h>
 #include <stdbool.h>
 #include <string.h>
 
-#define M 10000
+#define M 100
 //int n,m;
 
 //int used[M][M];
@@ -31,7 +32,7 @@ double PrintResult( double A[M][M],double B[M][M], int index[M], int m, int n );
 int Finex_element( double A[M][M],int used[M][M], double Maxx, int m, int n, int x );
 
 /// tìm vị trí phần tử  khử.
-int Finey_element( double A[M][M],int used[M][M], double Maxx, int m, int n, int x );
+int Finey_element( double A[M][M],int used[M][M], double Maxx, int m, int n, int y );
 
 /// Khử
 double Handle_element(double A[M][M], int m, int n,int x,int y);
@@ -51,8 +52,9 @@ int Rank( double A[M][M], int m, int n);
 double Check( double A[M][M],double Solutions[M], int m, int n);
 
 
-int main()
+main()
 {
+
     FILE *fp;
     char FName[M];
     int m, n, x, y, i;
@@ -182,12 +184,12 @@ double EnterMatrix( double A[M][M], int m, int n )
     for( int i = 1 ; i <= m; ++i )
     {
         printf( "\n" );
-        for( int j = 1; j <= n + 1; ++j)
+        for( int j = 1; j <= n + 1; ++j )
         {
             scanf( "%lf", &A[i][j] );
         }
     }
-    return 0;
+
 }
 
 void PrintEquations( double A[M][M], int m, int n )
@@ -246,14 +248,10 @@ double Maxabs( double A[M][M],int used[M][M], int m, int n )
 /// Các giá trị tại used[i][j] bằng 1 nếu cùng hàng hoặc cột với phân tử khử.
 int Mark( int used[M][M], int m, int n,int x, int y )
 {
-    for( int i = 1; i <= m; ++i ) {
-        for (int j = 1; j <= n; ++j) {
-            if (i == x || j == y) {
+    for( int i = 1; i <= m; ++i )
+        for( int j = 1; j <= n; ++j )
+            if( i == x || j == y )
                 used[i][j] = 1;
-            }
-        }
-    }
-    return 1;
 }
 
 int Finex_element( double A[M][M],int used[M][M], double Maxx, int m, int n, int x)
@@ -292,7 +290,7 @@ int Finex_element( double A[M][M],int used[M][M], double Maxx, int m, int n, int
             }
         }
     }
-    return 1;
+
 }
 
 int Finey_element( double A[M][M],int used[M][M], double Maxx, int m, int n, int y)
@@ -326,11 +324,11 @@ int Finey_element( double A[M][M],int used[M][M], double Maxx, int m, int n, int
                     y = i;
                     return y;
                     break;
+
                 }
             }
         }
     }
-    return 1;
 }
 
 double Handle_element( double A[M][M], int m, int n,int x,int y )
@@ -348,7 +346,7 @@ double Handle_element( double A[M][M], int m, int n,int x,int y )
 
         }
     }
-    return 0;
+
 }
 
 /// Kiểm tra phương trình vô nghiệm (lỗi trả về ...)
@@ -397,7 +395,6 @@ int OrderMatrix( double A[M][M], int m, int n, int x, int y )
             A[i][y] = tmp;
         }
     }
-    return 0;
 }
 
 /// xác định Rank của ma trận A|b.
@@ -587,7 +584,6 @@ double PrintResult( double A[M][M],double B[M][M] , int index[M], int m, int n )
     printf("\n");
     if( ( Rind == rankM && rankM == n ) || (Rind == rankM && rankM < n ) )
         Check( B, Solutions, m, n);
-    return 0;
 }
 
 double Check( double B[M][M],double Solutions[M], int m, int n)
@@ -603,5 +599,4 @@ double Check( double B[M][M],double Solutions[M], int m, int n)
     printf( "\nA*Solutions: ");
     for( int i = 1; i <= m; ++i )
         printf( "\n%lf ", b[i] );
-    return 0;
 }
