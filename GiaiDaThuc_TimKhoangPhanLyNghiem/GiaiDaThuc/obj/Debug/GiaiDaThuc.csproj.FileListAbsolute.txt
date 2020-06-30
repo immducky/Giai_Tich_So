@@ -1,7 +1,0 @@
-C:\Users\Administrator\source\repos\GiaiDaThuc\GiaiDaThuc\bin\Debug\GiaiDaThuc.exe.config
-C:\Users\Administrator\source\repos\GiaiDaThuc\GiaiDaThuc\bin\Debug\GiaiDaThuc.exe
-C:\Users\Administrator\source\repos\GiaiDaThuc\GiaiDaThuc\bin\Debug\GiaiDaThuc.pdb
-C:\Users\Administrator\source\repos\GiaiDaThuc\GiaiDaThuc\obj\Debug\GiaiDaThuc.csprojAssemblyReference.cache
-C:\Users\Administrator\source\repos\GiaiDaThuc\GiaiDaThuc\obj\Debug\GiaiDaThuc.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\GiaiDaThuc\GiaiDaThuc\obj\Debug\GiaiDaThuc.exe
-C:\Users\Administrator\source\repos\GiaiDaThuc\GiaiDaThuc\obj\Debug\GiaiDaThuc.pdb
